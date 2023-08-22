@@ -23,7 +23,7 @@ services:
     depends_on: [consul]
 
   reference-ui:
-    image: elmislesotho/lesotho-ui:1.0.0
+    image: elmislesotho/reference-ui:1.0.3
     env_file: settings.env
     depends_on: [consul]
 
